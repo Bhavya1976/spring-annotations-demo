@@ -20,14 +20,6 @@ public class MovieConfiguration {
 
         return movie;
     }
-    @Bean
-    @Scope("prototype")
-
-    public Movie movie(){
-        Movie movie=new Movie(actor());
-
-        return movie;
-    }
 
 
 }
