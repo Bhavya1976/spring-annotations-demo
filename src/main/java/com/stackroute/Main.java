@@ -1,4 +1,3 @@
-
 package com.stackroute;
 
 import com.stackroute.domain.Movie;
@@ -11,7 +10,7 @@ public class Main {
         //using ApplicationContext
 
         ApplicationContext context = new AnnotationConfigApplicationContext(MovieConfiguration.class);
-        Movie moive1=context.getBean( Movie.class);
-        moive1.moiveDisplay();
+        Movie movie1=context.getBean( Movie.class);
+        movie1.movieDisplay();
     }
 }

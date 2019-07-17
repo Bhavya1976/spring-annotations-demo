@@ -1,3 +1,4 @@
+
 package com.stackroute.domain;
 
 import org.springframework.context.annotation.*;
@@ -8,7 +9,7 @@ import org.springframework.context.annotation.*;
 public class MovieConfiguration {
 
     @Bean
-    //@Scope("prototype")
+
     public Movie movie(){
         Movie movie=new Movie();
 
