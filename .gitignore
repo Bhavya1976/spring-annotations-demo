@@ -5,7 +5,7 @@
 # ignore all files starting with . or ~
 .*
 
-.target
+target/
 .idea
-~SpringAnnotations.iml
+SpringAnnotations.iml
 ~*
